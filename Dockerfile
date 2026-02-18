@@ -6,6 +6,6 @@ RUN set -xe; \
     bash \
     postgresql16-client;
 
-ADD --chmod=755 https://raw.githubusercontent.com/vitabaks/pg_auto_reindexer/v1.3/pg_auto_reindexer /opt/
+ADD --chmod=755 https://raw.githubusercontent.com/vitabaks/pg_auto_reindexer/v1.7/pg_auto_reindexer /opt/
 
 ENTRYPOINT /opt/pg_auto_reindexer
